@@ -1,0 +1,59 @@
+Calcule a area de um quadrado de lado 2.5m
+       area = lado * lado;
+       */
+       
+       // tipo nome = valor; 1,500.00
+       float lado = 2.5f;
+       float area = 0f;
+       
+       area = lado * lado;
+       
+       System.out.println("A área do quadrado é " + area);
+       
+       /*
+       Calcule  sua idade em minutos.
+       */
+       
+       // eu tenho 16 anos
+       // ? x 365 x 24 x 60
+       
+       int idade = 48;
+       
+       int minutosVividos = 0;
+       
+       minutosVividos = idade * 365 * 24 * 60;
+  
+       System.out.println(
+             "Você viveu " + minutosVividos+ " minutos");
+       
+       /*
+       Calculo area de uma circunferencia
+       
+       area = 2 x pi x raio
+       pi = 3.14
+       */
+       
+       double raio = 10;
+       double ar = 0;
+       
+       ar = 2 * 3.14 * raio;
+       
+       System.out.println("A area da circunferencia é "+ ar);
+       
+       /*
+       Preciso saber quanto vou gastar numa viagem, os dados 
+       são, distancia = 500km, consumo 10km/l, valor R$ 5.0.
+       Exiba o valor que será gasto.
+       */
+       
+       int distancia = 500, consumo = 10, valorLitro= 5, 
+               qtdeLitros=0, valorIda, valor;
+       
+       qtdeLitros = distancia/consumo;
+       valorIda = qtdeLitros * valorLitro;
+       valor = valorIda + valorIda;
+       
+       System.out.println("O valor gasto na viagem sera de R$ " + valor );
+}
+    
+}
